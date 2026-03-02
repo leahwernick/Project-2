@@ -52,6 +52,12 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav a.active {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #0d3a7a;
+}
+
 nav .divider {
   color: #bbb;
   margin: 0 6px;
@@ -77,7 +83,7 @@ p {
 /*  Images  */
 .hero-img {
   width: 100%;
-  max-height: 220px;
+  max-height: 140px;
   object-fit: cover;
   border-radius: 16px;
   border: 1px solid #eee;
@@ -124,6 +130,10 @@ footer {
   color: #777;
   font-size: 16px;
 }
+.plain-section {
+  margin: 8px 0 22px 0;
+}
+
 /*  LibGuide-style elements  */
 .audience-bar {
   background: #1a5fb4;
